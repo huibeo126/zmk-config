@@ -58,8 +58,8 @@
         game_layer {
             bindings = <
                                                    &kp C_MUTE    &kp C_BRI_MAX
-&kp 1      &kp 2     &kp 3    &kp 4    &kp 5         &kp 6        &kp 7        &kp I     &kp O     &tog 0
-&kp Q      &kp W     &kp E    &kp R    &kp T         &kp H        &kp P        &kp K     &kp L     &sl 0
+&kp 1      &kp 2     &kp 3    &kp 4    &kp 5         &kp 6        &kp 7        &kp I     &kp O     &tog 3
+&kp Q      &kp W     &kp E    &kp R    &kp T         &kp H        &kp P        &kp K     &kp ESC     &sl 0
 &kp A      &kp LALT     &kp TAB    &kp D    &kp F         &kp B        &kp M        &kp COMMA &kp DOT   &kp FSLH
            &none     &none                                                     &none     &none
                               &kp LCTRL    &kp SPACE     &kp K   &sk LCTRL
