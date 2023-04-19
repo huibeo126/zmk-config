@@ -50,10 +50,11 @@
                                        &none         &none
 &kp F1     &kp F2    &kp F3   &kp F4   &kp F5        &kp F6       &kp F7       &kp F8    &kp F9    &kp F10
 &kp F11    &kp F12   &kp CAPS    &kp BSPC &none         &none        &none        &none     &none     &none
-&kp TILDE  &kp PG_DN &none    &kp RET  &sl 3         &none        &none        &none     &none     &none
+&kp TILDE  &kp PG_DN &none    &kp RET  &tog 3         &none        &none        &none     &none     &none
            &none     &none                                                     &none     &none
                               &none    &trans        &sk LS(LALT) &sk LC(LWIN)
             >;
+        };
         game_layer {
             bindings = <
                                                    &kp C_MUTE    &kp C_BRI_MAX
@@ -66,6 +67,5 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
                                &inc_dec_kp LC(EQUAL) LC(MINUS)>;
           };
-        };
     };
 };
